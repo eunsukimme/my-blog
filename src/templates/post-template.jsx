@@ -4,6 +4,8 @@ import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import PostTemplateDetails from '../components/PostTemplateDetails'
 
+require('katex/dist/katex.min.css')
+
 class PostTemplate extends React.Component {
   render() {
     const { title, subtitle } = this.props.data.site.siteMetadata

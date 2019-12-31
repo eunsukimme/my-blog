@@ -3,6 +3,7 @@ title: Postegresql 그리고 Pgadmin4 설치 및 사용법
 description: '오픈소스 RDB Postgresql와 GUI 클라이언트 어플리케이션인 Pgadmin4을 설치하고 사용해 봅시다'
 date: '2019-09-12T00:00:00.000Z'
 layout: post
+draft: false
 path: '/posts/postgresql-pgamdin/'
 category: 'Database'
 tags:

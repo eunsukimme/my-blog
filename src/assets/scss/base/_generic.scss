@@ -94,6 +94,7 @@ hr {
 a {
     color: $typographic-link-p-font-color;
     text-decoration: none;
+
     &:hover,
     &:focus,
     &:active {
@@ -109,6 +110,7 @@ strong {
 ul {
     list-style: square;
     @include margin-bottom(1);
+
     & li {
         padding: 0 5px;
         margin-bottom: 10px;
@@ -153,19 +155,24 @@ figcaption {
 }
 
 @include breakpoint-sm {
+
     figure.float-left,
     figure.float-right {
         max-width: 310px;
         @include padding(0, 1, 0, 1);
     }
+
     .float-right {
         float: right;
     }
+
     .float-left {
         float: left;
     }
+
     .content {
         lost-column: 7/12;
+
         &__inner {
             padding: 30px 20px;
         }
@@ -175,6 +182,7 @@ figcaption {
 @include breakpoint-md {
     .content {
         lost-column: 2/3;
+
         &__inner {
             padding: 40px 35px;
         }

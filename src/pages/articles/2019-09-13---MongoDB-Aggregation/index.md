@@ -3,7 +3,8 @@ title: MongoDB Aggregation이란
 description: 'MongoDB Aggregation에 대해서 알아봅시다'
 date: '2019-09-13T00:00:00.000Z'
 layout: post
-categories: 'Database'
+draft: false
+category: 'Database'
 tags:
   - Database
   - MongoDB
@@ -26,7 +27,7 @@ MongoDB 의 Aggregation framework 는 data processing pipeline 에 기반하여 
 
 가장 기본적인 파이프라인 단계는 filter 로, document 들을 query 한 후 특정 필드를 기준으로 grouping 하거나 sorting 하는 것입니다. 각 파이프라인 단계에서 operater 를 활용하여 평균값 계산이나 스트링 연결과 같은 연산을 수행할 수 있습니다.
 
-<img src="https://k.kakaocdn.net/dn/cSwl5T/btqtZNkK1AR/F6uJpC6kTSjQRQ1nRs7hG0/tfile.svg" alt="" />
+<img width="600" src="https://k.kakaocdn.net/dn/cSwl5T/btqtZNkK1AR/F6uJpC6kTSjQRQ1nRs7hG0/tfile.svg" alt="" />
 
 위 사진은 Aggregation pipeline 의 예시를 보여준 것입니다. 차근차근 살펴보도록 합시다.
 
@@ -38,7 +39,7 @@ Map-Reduce function 은 두 가지 단계로 구성되는데, map 단계에서 �
 
 Map-Reduce function 은 사용자가 정의한 Javascript 함수를 사용할 수 있기 때문에 Aggregation pipeline 보다 더 유연한 반면 보다 덜 효율적이고 복잡합니다.
 
-<img src="https://k.kakaocdn.net/dn/dqfMrx/btqt0TR7yRi/kd8q2x4zo2yRVIsAKTLWVK/tfile.svg" alt="" />
+<img width="600" src="https://k.kakaocdn.net/dn/dqfMrx/btqt0TR7yRi/kd8q2x4zo2yRVIsAKTLWVK/tfile.svg" alt="" />
 
 위 사진은 Map-Reduce function 을 활용한 aggregation 예제입니다. 차근차근 살펴봅시다.
 
@@ -48,7 +49,7 @@ mapReduce 안에 먼저 query 필드가 주어졌는데, status 가 "A" 인 docu
 
 MongoDB 는  db.collection.estimatedDocumentCount(), db.collection.count(), db.collection.distinct() 와   같은 메서드를 제공하는데, 이는 하나의 collection 에서 aggregation 하는 것으로 간단한 반면 aggregation pipeline 이나 map-reduce function 보다는 성능이다 유연성 측면에서 뒤떨어집니다.
 
-<img src="https://k.kakaocdn.net/dn/m9mxQ/btqtYZssFsw/KZm9nNsQYGkkXfYXbOp0K1/tfile.svg" alt="" />
+<img width="600" src="https://k.kakaocdn.net/dn/m9mxQ/btqtYZssFsw/KZm9nNsQYGkkXfYXbOp0K1/tfile.svg" alt="" />
 
 위 사진은 Single Purpose Aggregation Operation 을 설명한 사진입니다. 위에서 제시한 두 가지 방법보다 확실히 이해가 쉽지만, 강력한 연산 기능은 제공하지 않다는 걸 알 수 있습니다.
 

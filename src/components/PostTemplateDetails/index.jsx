@@ -11,7 +11,6 @@ class PostTemplateDetails extends React.Component {
     const { subtitle, author } = this.props.data.site.siteMetadata
     const { location } = this.props
     const isHomePage = get(location, 'pathname', '/') === '/'
-    console.log(this.props.data.site.siteMetadata)
     const post = this.props.data.markdownRemark
     const tags = post.fields.tagSlugs
 
