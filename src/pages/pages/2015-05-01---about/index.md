@@ -6,9 +6,9 @@ path: '/about'
 
 **Eunsu Kim(김은수)**
 
-ML/DL 공부를 즐기는 주니어 웹 개발자 입니다. 한국에서 살고 있습니다 🇰🇷
+Machine Learning/Deep Learning 공부를 즐기는 주니어 웹 개발자 입니다. 한국에서 살고 있습니다 🇰🇷
 
-I'm a Junior Web Developer who loves ML/DL. Live in South Korea🇰🇷
+I'm a Junior Web Developer who loves Machine Learning/Deep Learning. Live in South Korea🇰🇷
 
 # Technical Skills
 
@@ -18,7 +18,7 @@ I'm a Junior Web Developer who loves ML/DL. Live in South Korea🇰🇷
 - BE: NodeJS, MongoDB, PostgreSQL
 - Dev ops: Git, AWS, Heroku
 
-## ML/DL
+## Machine Learning/Deep Learning
 
 - Language: Python
 - Framework: Tensorflow, Keras, Scikit-learn

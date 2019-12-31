@@ -3,10 +3,10 @@ title: Linear Regression(선형 회귀) 개념 정리
 description: Supervised Learning에서 연속적인 값을 예측하는 Linear Regression에 대해서 알아봅시다
 date: '2019-10-15T00:00:00.000Z'
 layout: post
-category: ML
+category: Machine Learning
 tags:
   - TIL
-  - ML
+  - Machine Learning
   - Python
   - scikit-learn
 use_math: true
