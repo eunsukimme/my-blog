@@ -1,7 +1,7 @@
 const lost = require('lost')
 const pxtorem = require('postcss-pxtorem')
 
-const url = 'https://lumen.netlify.com'
+const url = 'https://eunsukimme.netlify.com'
 
 module.exports = {
   siteMetadata: {
@@ -11,7 +11,7 @@ module.exports = {
     subtitle:
       '개발하면서 경험했던 어려움들 또는 기억하고자 하는 것들을 정리해놓는 기술 블로그 입니다',
     copyright: '© All rights reserved.',
-    disqusShortname: '',
+    disqusShortname: 'eunsukimme-netlify-com',
     menu: [
       {
         label: 'Articles',
@@ -129,7 +129,7 @@ module.exports = {
     'gatsby-plugin-sharp',
     {
       resolve: 'gatsby-plugin-google-analytics',
-      options: { trackingId: 'UA-73379983-2' },
+      options: { trackingId: 'UA-145389637-2' },
     },
     {
       resolve: 'gatsby-plugin-google-fonts',
