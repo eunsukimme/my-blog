@@ -129,6 +129,15 @@ module.exports = {
               strict: 'ignore',
             },
           },
+          {
+            resolve: 'gatsby-remark-table-of-contents',
+            options: {
+              exclude: 'Table of Contents',
+              tight: false,
+              fromHeading: 1,
+              toHeading: 6,
+            },
+          },
         ],
       },
     },
@@ -141,7 +150,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-google-fonts',
       options: {
-        fonts: ['Noto Sans', 'roboto:400,400i,500,700'],
+        fonts: ['Noto Sans'],
       },
     },
     'gatsby-plugin-sitemap',

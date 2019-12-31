@@ -24,6 +24,10 @@ class IndexRoute extends React.Component {
             />
             <title>{title}</title>
             <meta name="description" content={subtitle} />
+            <script
+              src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"
+              async
+            />
           </Helmet>
           <Sidebar {...this.props} />
           <div className="content">
