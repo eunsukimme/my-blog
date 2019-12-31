@@ -7,15 +7,19 @@ module.exports = {
   siteMetadata: {
     url,
     siteUrl: url,
-    title: 'Blog by John Doe',
+    title: "Codesigner's Dev Story",
     subtitle:
-      'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+      '개발하면서 경험했던 어려움들 또는 기억하고자 하는 것들을 정리해놓는 기술 블로그 입니다',
     copyright: '© All rights reserved.',
     disqusShortname: '',
     menu: [
       {
         label: 'Articles',
         path: '/',
+      },
+      {
+        label: 'Categories',
+        path: '/categories/',
       },
       {
         label: 'About me',
@@ -27,13 +31,14 @@ module.exports = {
       },
     ],
     author: {
-      name: 'John Doe',
-      email: '#',
+      name: 'Eunsu Kim',
+      email: 'eunsu.dev@gmail.com',
       telegram: '#',
       twitter: '#',
-      github: '#',
+      github: 'eunsukimme',
       rss: '#',
       vk: '#',
+      linkedin: 'eunsukimme',
     },
   },
   plugins: [
@@ -129,7 +134,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-google-fonts',
       options: {
-        fonts: ['roboto:400,400i,500,700'],
+        fonts: ['Noto Sans', 'roboto:400,400i,500,700'],
       },
     },
     'gatsby-plugin-sitemap',
