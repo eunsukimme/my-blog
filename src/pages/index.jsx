@@ -4,6 +4,7 @@ import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Post from '../components/Post'
 import Sidebar from '../components/Sidebar'
+import TitleImage from './title_image.png'
 
 class IndexRoute extends React.Component {
   render() {
@@ -24,6 +25,11 @@ class IndexRoute extends React.Component {
             />
             <title>{title}</title>
             <meta name="description" content={subtitle} />
+            {/* open graph */}
+            <meta property="og:title" content={title} />
+            <meta property="og:description" content={subtitle} />
+            <meta property="og:image" content={TitleImage} />
+            <meta property="og:url" content="https://eunsukimme.netlify.com" />
             <script
               src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"
               async

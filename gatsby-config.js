@@ -7,7 +7,7 @@ module.exports = {
   siteMetadata: {
     url,
     siteUrl: url,
-    title: "Codesigner's Dev Story",
+    title: "Eunsu's Dev Blog",
     subtitle:
       '개발하면서 경험했던 어려움들 또는 기억하고자 하는 것들을 정리해놓는 기술 블로그 입니다',
     copyright: '© All rights reserved.',
@@ -105,14 +105,18 @@ module.exports = {
         ],
       },
     },
+    'gatsby-transformer-sharp',
+    'gatsby-plugin-sharp',
     {
       resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
           {
-            resolve: 'gatsby-remark-images',
+            resolve: 'gatsby-remark-images-contentful',
             options: {
-              maxWidth: 600,
+              maxWidth: 200,
+              wrapperStyle: 'border: 5px solid red;',
+              showCaptions: 'true',
             },
           },
           {
@@ -141,8 +145,6 @@ module.exports = {
         ],
       },
     },
-    'gatsby-transformer-sharp',
-    'gatsby-plugin-sharp',
     {
       resolve: 'gatsby-plugin-google-analytics',
       options: { trackingId: 'UA-145389637-2' },
