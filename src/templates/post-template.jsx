@@ -3,6 +3,7 @@ import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import PostTemplateDetails from '../components/PostTemplateDetails'
+import TitleImage from '../pages/title_image.png'
 
 require('katex/dist/katex.min.css')
 
@@ -19,6 +20,11 @@ class PostTemplate extends React.Component {
           <Helmet>
             <title>{`${postTitle} - ${title}`}</title>
             <meta name="description" content={description} />
+            {/* open graph */}
+            <meta property="og:title" content={title} />
+            <meta property="og:description" content={subtitle} />
+            <meta property="og:image" content={TitleImage} />
+            <meta property="og:url" content="https://eunsukimme.netlify.com" />
           </Helmet>
           <PostTemplateDetails {...this.props} />
         </div>

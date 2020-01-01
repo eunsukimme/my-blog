@@ -195,5 +195,19 @@ module.exports = {
         precision: 8,
       },
     },
+    {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        name: "Eunsu's Dev Blog",
+        short_name: "Eunsu's Dev Blog",
+        start_url: '/',
+        background_color: '#6b37bf',
+        theme_color: '#6b37bf',
+        // Enables "Add to Homescreen" prompt and disables browser UI (including back button)
+        // see https://developers.google.com/web/fundamentals/web-app-manifest/#display
+        display: 'standalone',
+        icon: 'src/images/favicon.png', // This path is relative to the root of the site.
+      },
+    },
   ],
 }
