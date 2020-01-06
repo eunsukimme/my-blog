@@ -21,7 +21,7 @@ class IndexRoute extends React.Component {
           <Helmet>
             <meta
               name="google-site-verification"
-              content="WswtE5aKeITCkgMTRnl7riT2EHL3xm0WE1Wnyp3I4T4"
+              content="ad1XLCFLDmMRZIruOIBW-5gkO4REWSgGxd21fdzfE10"
             />
             <title>{title}</title>
             <meta name="description" content={subtitle} />
