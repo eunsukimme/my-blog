@@ -1,9 +1,9 @@
 ---
 title: Semantic HTML(시맨틱 HTML) 이란?
-description: "웹 페이지의 접근성과 SEO(Search Engine Optimization)을 향상시켜주고 코드의 가독성을 높여주는 Semantic HTML에 대해서 알아보고, semantic 태그들에는 어떤 것들이 있는지 알아봅시다."
+description: '웹 페이지의 접근성과 SEO(Search Engine Optimization)을 향상시켜주고 코드의 가독성을 높여주는 Semantic HTML에 대해서 알아보고, semantic 태그들에는 어떤 것들이 있는지 알아봅시다.'
 date: '2019-12-18T00:30:00.000Z'
 layout: post
-category: HTML
+category: Front-end
 tags:
   - TIL
   - WEB
@@ -12,13 +12,13 @@ use_math: true
 comments: true
 ---
 
-_Semantic HTML_ 에서 semantic(시맨틱)이란 "의미적으로 연관이 있는" 것을 의미합니다. 즉 semantic HTML은 각 HTML 태그가 포함하는 내용에 대한 정보를 제공한다는 것을 의미합니다.
+_Semantic HTML_ 에서 semantic(시맨틱)이란 "의미적으로 연관이 있는" 것을 의미합니다. 즉 semantic HTML 은 각 HTML 태그가 포함하는 내용에 대한 정보를 제공한다는 것을 의미합니다.
 
 예를 들어 `div` 태그와 `span` 태그는 포함되는 내용에 대한 어떠한 정보도 제공하지 못 하기 때문에 시맨틱 태그가 아닙니다. 그러나 `header` 태그와 `footer` 태그는 그 안에 포함될 내용을 어느정도 예측할 수 있기 때문에 시맨틱 태그에 해당됩니다. 이렇게 시맨틱 태그를 사용하여 웹을 구성하는 것은 다음과 같은 장점이 있습니다.
 
-- **Accessibility**: Semantic HTML은 모바일 사용자나 장애가 있는 사용자의 접근성을 더 향상시켜 줍니다. 브라우저나 스크린 리더가 코드를 더 쉽게 interpret할 수 있기 때문입니다.
-- **SEO**: Semantic HTML은 SEO(*Search Engine Optimization)*을 향상시킴으로써 웹 페이지의 방문자 수를 늘릴 수 있습니다. SEO가 좋을 수록 검색 엔진이 웹 사이트를 빠르게 식별할 수 있고 중요한 정보에 적절한 가중치를 부여할 수 있습니다.
-- **Easy to Understand**: Semantic HTML은 또한 웹 사이트 소스코드의 가독성을 향상시켜 줍니다.
+- **Accessibility**: Semantic HTML 은 모바일 사용자나 장애가 있는 사용자의 접근성을 더 향상시켜 줍니다. 브라우저나 스크린 리더가 코드를 더 쉽게 interpret 할 수 있기 때문입니다.
+- **SEO**: Semantic HTML 은 SEO(*Search Engine Optimization)*을 향상시킴으로써 웹 페이지의 방문자 수를 늘릴 수 있습니다. SEO 가 좋을 수록 검색 엔진이 웹 사이트를 빠르게 식별할 수 있고 중요한 정보에 적절한 가중치를 부여할 수 있습니다.
+- **Easy to Understand**: Semantic HTML 은 또한 웹 사이트 소스코드의 가독성을 향상시켜 줍니다.
 
 아래 그림은 Non-Semantic 태그와 Semantic 태그를 사용하여 구성된 페이지를 비교하고 있습니다.
 
@@ -146,7 +146,7 @@ Semantic HTML 태그로는 다음과 같은 것들이 있습니다.
 
 # Review
 
-지금까지 semantic HTML이 무엇이고 어떤 태그들이 있는지 간단히 살펴보았습니다. Semantic HTML을 사용함으로써 코드의 가독성을 향상시키고 사용자 접근성 또한 높일 수 있습니다.
+지금까지 semantic HTML 이 무엇이고 어떤 태그들이 있는지 간단히 살펴보았습니다. Semantic HTML 을 사용함으로써 코드의 가독성을 향상시키고 사용자 접근성 또한 높일 수 있습니다.
 
 # References
 
