@@ -162,7 +162,7 @@ layers:
 ```
 
 <figure>
-  <img style="width: 100%; object-fit: contain;" alt="Endpoint로 요청을 보낸 결과" src="https://user-images.githubusercontent.com/31213226/73136307-9440d800-408f-11ea-87f4-693efc98475e.png">
+  <img style="width: 100%; object-fit: contain;" alt="Endpoint로 요청을 보낸 결과" src="./capture.png">
   <figcaption style="color: grey;">Endpoint로 요청을 보낸 결과</figcaption>
 </figure>
 
