@@ -8,7 +8,7 @@ path: '/about'
 
 I'm a Junior Web Developer who loves Machine Learning & Deep Learning. Currently I live in South Korea🇰🇷.
 My portfolio site is available. Just take a look now!👉
-[https://eunsu-portfolio.herokuapp.com](https://eunsu-portfolio.herokuapp.com)
+[https://eunsu-portfolio.surge.sh](https://eunsu-portfolio.surge.sh)
 
 ## Technical Skills
 
