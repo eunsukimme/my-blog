@@ -8,70 +8,105 @@ path: '/about'
 
 I'm a Junior Web Developer who loves Machine Learning & Deep Learning. Currently I live in South Korea🇰🇷.
 My portfolio site is available. Just take a look now!👉
-[https://eunsu-portfolio.surge.sh](https://eunsu-portfolio.surge.sh)
+[https://eunsu-portfolio.now.sh](https://eunsu-portfolio.now.sh)
+
+<hr/>
 
 ## Technical Skills
 
-### Web
+### 1. Web
 
-- FE: React, Redux, JS(ES6+) Sass, Webpack
-- BE: NodeJS, MongoDB, PostgreSQL
-- Dev ops: Git, AWS, Heroku
+#### Front-End
 
-### Machine Learning/Deep Learning
+- Language: HTML/CSS/JS(ES6+), TS
+- Library: React(16.8+), Redux, Redux-thunk, Redux-saga, immer,
+- Design: styled-components, storybook, Sass
+- Testing: Jest
+
+#### Back-End
+
+- Runtime & Server: Node.js, Nginx
+- Database: MongoDB, PostgreSQL
+- Testing: Mocha
+
+#### DevOps
+
+- VCS: Git, Github, Gitlab
+- Packaging: Docker, Docker-compose
+- Cloud: AWS(EC2, S3, RDS, Route53), Heroku
+
+### 2. Machine Learning/Deep Learning
 
 - Language: Python
 - Framework: Tensorflow, Keras, Scikit-learn
 
-### Others
+### 3. Others
 
-- Cloud: AWS EC2, S3, RDS, Route53, Cognito
 - Blockchain: Ethereum, Hyperledger
 - Game: Unity3D
 
+<hr/>
+
+## Work Experience
+
+### [LOVO](https://lovo.ai)
+
+<span style="color: grey;">2020.02 ~ present / Front-End Developer</span>
+
+LOVO is high-quality DIY voiceover creation platform for all content creators.
+
+- Developed the LOVO studio(React, TS, Redux, Redux-thunk, Redux-saga)
+- Developed a system refining audio data for voice models in LOVO(Web Audio API, Wavesurfer.js)
+- Maintained design system(styled-components, storybook)
+- Managed cloud services and deploy pipeline(Github, AWS, Docker, Nginx)
+
+<hr/>
+
 ## Projects
 
-### 1. Common Bound(커먼바운드)
+### [Common Bound(커먼바운드)](https://github.com/Common-Bound)
 
 <span style="color: grey;">2019.05 ~ 2019.12 / Lead Developer</span>
 
-Common Bound is a platform that enables individuals or companies who want to solve problems with artificial intelligence to crowdsource data for training AI([link](https://github.com/Common-Bound))
+Common Bound is a platform that enables individuals or companies who want to solve problems with artificial intelligence to crowdsource data for training AI
 
-- Development of a responsive web app(React, NodeJS, PostgreSQL)
-- Development of a neural network for inspecting quality of image data(Tensorflow, Keras, Scikit-learn)
-- Engineering CI/CD pipelines(Mocha, Gitlab, AWS)
+- Developed responsive web app(React, Node.js, PostgreSQL)
+- Developed a neural network for inspecting quality of image data(Tensorflow, Keras, Scikit-learn)
+- Managed CI/CD pipelines(Mocha, Gitlab, AWS)
 
-**Acknowledgment**
+#### Acknowledgment
 
 Common Bound is a service created with the support of SW Maestro managed by the Ministry of Science and ICT, Korea
 
-### 2. Over Fetch(오버페치)
+### [Over Fetch(오버페치)](https://github.com/eunsukimme/Overfetch)
 
 <span style="color: grey;">2019.03 ~ 2019.06 / Lead Developer</span>
 
-Overfetch is a service for visualizing game data of Overwatch([link](https://github.com/eunsukimme/Overfetch))
+Overfetch is a service for visualizing game data of Overwatch.
 
-- Development of a responsive web app(React, NodeJS, MongoDB)
-- Development of dashboard for visualizing analyzed data(D3)
+- Developed responsive web app(React, NodeJS, MongoDB)
+- Developed dashboard for visualizing analyzed data(D3)
 
-**Acknowledgment**
+#### Acknowledgment
 
 Overfetch is a project supported by the Korea Scholarship Foundation and Blizzard Entertainment
 
-### 3. ISTC(Inspection System of Translated Contents)
+### [ISTC(Inspection System of Translated Contents)](https://github.com/eunsukimme/Translation-Content-Quality-Assurance-System)
 
 <span style="color: grey;">2018.12 ~ 2019.05 / dApp Developer</span>
 
-ISTC(Inspection System of Translated Contents) is designed to ensure that translations of Intellectual properties, which translates into various languages, are addressed transparently([link](https://github.com/eunsukimme/Translation-Content-Quality-Assurance-System))
+ISTC(Inspection System of Translated Contents) is designed to ensure that translations of Intellectual properties, which translates into various languages, are addressed transparently.
 
-- Development of dApp and business logic(Hyperledger Composer)
-- Deployment of business network(Hyperledger Fabric)
+- Developed a dApp and business logic(Hyperledger Composer)
+- Deployed and managed business networks(Hyperledger Fabric)
 
-**Acknowledgment**
+#### Acknowledgment
 
 This project was carried out with the support of the Pukyong National University LINC + project
 
 CISC-S 2019 Submission 108([paper](https://github.com/eunsukimme/Translation-Content-Quality-Assurance-System/blob/master/document/CISC-S_2019_paper_108.pdf))
+
+<hr/>
 
 ## Education
 
@@ -107,6 +142,8 @@ Pukyong National University
 <span style="color: grey;">2016.12 ~ 2017.02</span>
 
 - University of Malaya Summer Enrichment Program
+
+<hr/>
 
 ## Awards
 
