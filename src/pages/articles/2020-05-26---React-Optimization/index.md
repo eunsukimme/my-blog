@@ -1,6 +1,6 @@
 ---
 title: 5 Ways to Optimize Your React app
-description: React 어플리케이션의 성능을 최적화 시키는 대표적인 10 가지 기술에 대해서 알아봅시다
+description: React 어플리케이션의 성능을 최적화 시키는 대표적인 5 가지 기술에 대해서 알아봅시다
 date: '2020-05-27T23:30:00.000Z'
 layout: post
 category: React
